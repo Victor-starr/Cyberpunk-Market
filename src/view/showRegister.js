@@ -48,11 +48,11 @@ async function onSubmit(e) {
   };
   if (!data.email || !data.password || !data.repassword) {
     context.notificationMessage('All fields are required');
-    return alert("All fields are required");
+    return //alert("All fields are required");
   }
   if (data.password !== data.repassword) {
     context.notificationMessage("Passwords don't match");
-    return alert("Passwords don't match");
+    return //alert("Passwords don't match");
   }
   delete data.repassword;
   await userService.register(data);

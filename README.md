@@ -14,8 +14,6 @@ The Cyberpunk Market is a Single Page Application (SPA) built with JavaScript, H
 - **HTML/CSS**
 - **lit-html** for templating
 - **page.js** for routing
-- **mocha** and **chai** for testing
-- **playwright** for browser automation
 
 ## Getting Started
 
@@ -80,16 +78,6 @@ Or you can use an extension of your choice.
 3. **Market**: View, edit, and delete your own market items.
 4. **Sell**: Create and list new items for sale.
 5. **Notifications**: Be alerted with notifications for any issues like incorrect login or registration.
-
-## Testing
-
-If you have installed Mocha and Chai, you can run tests using the following command:
-
-```bash
-npm test
-```
-
-For Playwright browser automation, make sure to check the Playwright documentation for running end-to-end tests.
 
 ---
 

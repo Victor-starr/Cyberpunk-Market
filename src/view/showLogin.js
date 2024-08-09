@@ -34,7 +34,7 @@ async function onSubmit(e) {
   const { email, password} = Object.fromEntries(formData);
   if (!email || !password) {
     context.notificationMessage('All fields are required');
-    return alert('All fields are required!');
+    return //alert('All fields are required!');
   }
   await userService.login({ email, password });
   context.updateNav();

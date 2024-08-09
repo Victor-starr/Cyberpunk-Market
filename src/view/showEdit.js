@@ -60,7 +60,7 @@ export async function showEdit(ctx) {
         const { item,imageUrl,price,availability,type,description} =Object.fromEntries(formData);
         if(!item || !imageUrl || !price || !availability || !type || !description){
           ctx.notificationMessage('All fields are required!');
-          return alert('All fields are required!');
+          return //alert('All fields are required!');
         }
         const updatedItem = {
             item,

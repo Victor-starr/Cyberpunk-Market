@@ -60,7 +60,7 @@ async function onSubmit(e) {
     const {item,imageUrl,price,availability,type,description} =Object.fromEntries(formData);
     if(!item || !imageUrl || !price || !availability || !type || !description){
             context.notificationMessage('All fields are required!');
-            return alert('All fields are required!');
+            return //alert('All fields are required!');
         }
     const updatedItem = {
         item,
